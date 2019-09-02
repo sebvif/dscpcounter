@@ -4,19 +4,19 @@ Este programa cuenta la cantidad de paquetes por etiqueta de DSCP y sentido. La 
 
 # instrucciones de instalacion
 
-`
+```
 git clone http://github.com/sebvif/dscpcounter.git
 cd dscpcounter
 virtualenv venv
 source venv/bin/activate
 pip install -r requirements.txt
-`
+```
 
 # instrucciones de uso
 
-`
+```
 cd /path/to/dscpcounter
 source venv/bin/activate
 python3 dscpconter.py /path/to/dump.pcap 00:00:00:00:00:00
-`
+```
 
